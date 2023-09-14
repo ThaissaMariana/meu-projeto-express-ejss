@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/produto', (req, res) => {
-  res.render('produto', { message: 'Olá, Safira' });
+  res.render('produto', { message: 'Produtos Hello Kitty' });
 });
 
 app.listen(port, () => {

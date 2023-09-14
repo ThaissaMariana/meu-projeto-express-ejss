@@ -1,0 +1,22 @@
+body {
+    background: #f2d0d1;
+  }
+  
+  .produto-card{
+    background-color: #FFFF;
+    
+    display: inline-block;
+    width: 290px;
+    height: 400px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+  }
+
+  .image{
+    height: 350px;
+    width: 290px;
+    
+  }
+  
+  
