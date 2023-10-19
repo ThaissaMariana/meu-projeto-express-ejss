@@ -7,7 +7,7 @@ body {
     
     display: inline-block;
     width: 290px;
-    height: 400px;
+    height: 450px;
     padding: 5px;
     margin: 20px;
     overflow: hidden;
@@ -16,7 +16,6 @@ body {
   .image{
     height: 350px;
     width: 290px;
-    
   }
   
   
