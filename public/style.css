@@ -7,15 +7,52 @@ body {
     
     display: inline-block;
     width: 290px;
-    height: 450px;
+    height: 500px;
     padding: 5px;
     margin: 20px;
     overflow: hidden;
+    box-shadow:1px 2px 3px 4px rgba(20,20,20,0.4);
   }
+
+ 
+  
 
   .image{
     height: 350px;
     width: 290px;
   }
+
+
+  .letrinhas-h3{
+    padding: 5px;
+    font-family:'Cinzel Decorative', cursive;
+    font-size: 15px;
+    color: #A90623;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   
+  .letrinhas{
+    padding: 5px;
+    font-size: 15px;
+    font-family:'Paprika', sans-serif;
+    color: #A90623;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .letrinhas:hover{
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+    font-family:'Paprika', sans-serif;
+    white-space: normal;
+  }
+
+
   
