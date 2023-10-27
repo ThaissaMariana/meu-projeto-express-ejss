@@ -7,7 +7,7 @@ body {
     
     display: inline-block;
     width: 290px;
-    height: 500px;
+    height: 505px;
     padding: 5px;
     margin: 20px;
     overflow: hidden;
@@ -15,11 +15,11 @@ body {
   }
 
  
-  
 
   .image{
     height: 350px;
     width: 290px;
+    margin-left: -4px;
   }
 
 
@@ -54,5 +54,16 @@ body {
     white-space: normal;
   }
 
+.nominho{
+  font-size: 30px;
+  color: #A90623;
+  background-color: #ffb3c8;
+  padding: 10px 40px;
+  font-family: Atma, cursive;
+  height: 70px;
+  text-shadow: 2px 2px 3px #ffffff
 
+
+
+}
   
