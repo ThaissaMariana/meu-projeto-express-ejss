@@ -10,21 +10,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
 </head>
 
-<% for(let produto of produtos){ %>
-   <h1>Hello Kitty</h1>
- <% } %>
-
 <a>
-  <h1 class="nominho"></h1>
+  <h1 class="nominho">Produtos Hello Kitty</h1>
+  <% for (let produto of produtos) {%>
   <a href="/produto">
-    <div class="produto-card"><img class="image" src="https://cdn.awsli.com.br/2500x2500/84/84034/produto/140598404/hkkk3-lqkx7bzmsz.jpg" alt="">
-  <p class="letrinhas-h3">Funko Pop Sanrio Team USA Gymnast</p>
-  <p class="letrinhas-h3">R$: 299,99</p>
-  <p class="letrinhas">Esse produto é considerado EXCLUSIVO. Quando o Funko Pop é considerado exclusivo significa que o número de unidades produzidas foi limitado e, portanto, a figura se torna mais rara.</p>
+    <div class="produto-card"><img class="image" src="/imagens/<%= produto.imagem %>" alt="">
+  <p class="letrinhas-h3"><%= produto.nome %></p>
+  <p class="letrinhas-h3"><%= produto.preco %></p>
+  <p class="letrinhas"><%= produto.descricao %></p>
+  <button class="button-red">Ver mais</button>
   </div>
- 
+  <% } %>
 </a>
-<a href="/produto">
+
+
+  <!--<a href="/produto">
   <div class="produto-card"><img class="image" src="https://cdn.awsli.com.br/2500x2500/84/84034/produto/140598404/hkkk3-lqkx7bzmsz.jpg" alt="">
   <p class="letrinhas-h3">Funko Pop Sanrio Team USA Gymnast</p>
   <p class="letrinhas-h3">R$: 299,99</p>
@@ -86,7 +86,9 @@
       <p class="letrinhas-h3">R$: 299,99</p>
       <p class="letrinhas">Esse produto é considerado EXCLUSIVO. Quando o Funko Pop é considerado exclusivo significa que o número de unidades produzidas foi limitado e, portanto, a figura se torna mais rara.</p>
       </div>
- </a>
+ </a>-->
+
+
                
 </body>
 </html>

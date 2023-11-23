@@ -24,6 +24,7 @@ body {
     margin: 20px;
     overflow: hidden;
     box-shadow:1px 2px 3px 4px rgba(20,20,20,0.4);
+    text-align: center;
   }
 
   .image{
@@ -35,7 +36,7 @@ body {
   .imagee{
     height: 350px;
     width: 290px;
-    margin-left: 140px;
+    margin-left: 0px;
   }
 
 
@@ -79,7 +80,15 @@ body {
   height: 70px;
   text-shadow: 2px 2px 3px #ffffff
 
-
-
 }
+
+.button-red{
+  color: whitesmoke;
+  background-color: #A90623;
+  font-family: Atma, cursive;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
   
