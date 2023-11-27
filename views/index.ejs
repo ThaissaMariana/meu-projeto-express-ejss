@@ -11,7 +11,17 @@
 </head>
 
 <a>
-  <h1 class="nominho">Produtos Hello Kitty</h1>
+  <nav class="navbar navbar-expand-lg" style="background-color: #EF95B2;">
+    <h1 class="nominho">Produtos Hello Kitty</h1>
+    <ul class="nav-item">
+      <li><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Carrinho</a></li>
+      <br>
+      <li><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Favoritos</a></li>
+      <br>
+      <li><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Promoções</a></li>
+    </ul>
+  </nav>
+  
   <% for (let produto of produtos) {%>
   <a href="/produto">
     <div class="produto-card"><img class="image" src="/imagens/<%= produto.imagem %>" alt="">

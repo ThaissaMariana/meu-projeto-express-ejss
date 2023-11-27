@@ -6,7 +6,7 @@ body {
     background-color: #FFFF;
     
     display: inline-block;
-    width: 290px;
+    width: 300px;
     height: 505px;
     padding: 5px;
     margin: 20px;
@@ -78,7 +78,7 @@ body {
   background-color: #ffb3c8;
   padding: 10px 40px;
   font-family: Atma, cursive;
-  height: 70px;
+  height: 60px;
   text-shadow: 2px 2px 3px #ffffff
 
 }
