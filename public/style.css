@@ -92,4 +92,11 @@ body {
   padding: 4px 8px;
 }
 
-  
+.rodape{
+  bottom: 0;
+  position: fixed;
+  width: 110%;
+  background-color: #ffb3c8;
+  font-family: Atma, cursive;
+  color:#A90623;
+}

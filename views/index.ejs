@@ -14,16 +14,16 @@
   <nav class="navbar navbar-expand-lg" style="background-color: #EF95B2;">
     <h1 class="nominho">Produtos Hello Kitty</h1>
     <ul class="nav-item">
-      <li><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Carrinho</a></li>
+      <li style="color: #A90623;"><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Carrinho</a></li>
       <br>
-      <li><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Favoritos</a></li>
+      <li style="color: #A90623;"><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Favoritos</a></li>
       <br>
-      <li><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Promoções</a></li>
+      <li style="color: #A90623;"><a class="nav-link active" aria-current="page" style="color: #A90623; font-family: atma, cursive;">Promoções</a></li>
     </ul>
   </nav>
   
   <% for (let produto of produtos) {%>
-  <a href="/produto">
+  <a href="/produto/<%= produto.id %>">
     <div class="produto-card"><img class="image" src="/imagens/<%= produto.imagem %>" alt="">
   <p class="letrinhas-h3"><%= produto.nome %></p>
   <p class="letrinhas-h3"><%= produto.preco %></p>
@@ -31,6 +31,7 @@
   </div>
   <% } %>
 </a>
+<footer class="rodape">Produtos Hello Kitty 2023</footer>
 
 
   <!--<a href="/produto">

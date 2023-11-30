@@ -27,8 +27,9 @@ app.get('/', (req, res) => {
   res.render('index', { produtos });
 });
 
-app.get('/produto', (req, res) => {
-  res.render('produto', { message: 'Produtos Hello Kitty' });
+app.get('/produto/:id', (req, res) => {
+  const produto = buscarProdutoPorID(req.params.id)
+  res.render('produto', { produto });
 });
 
 app.listen(port, () => {
